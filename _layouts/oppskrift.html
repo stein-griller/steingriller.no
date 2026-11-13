@@ -1,0 +1,48 @@
+---
+layout: standard
+---
+
+<article>
+  <a class="tilbake" href="/oppskrifter/">
+    ← Alle oppskrifter
+  </a>
+
+  <h1>{{ page.tittel | escape }}</h1>
+
+  {% if page.beskrivelse %}
+    <p>{{ page.beskrivelse | escape }}</p>
+  {% endif %}
+
+  {% if page.porsjoner %}
+    <p class="info">Porsjoner: {{ page.porsjoner | escape }}</p>
+  {% endif %}
+
+  {% assign hovedbilde = page.dir | append: '01.jpg' %}
+
+  <img
+    class="hovedbilde"
+    src="{{ hovedbilde | relative_url }}"
+    alt="{{ page.tittel | escape }}"
+  >
+
+  {{ content }}
+
+  <div class="galleri">
+    {% assign filer = site.static_files | sort: 'path' %}
+
+    {% for fil in filer %}
+      {% assign mappe = fil.path | remove: fil.name %}
+      {% assign filtype = fil.extname | downcase %}
+
+      {% if mappe == page.dir and fil.name != '01.jpg' %}
+        {% if filtype == '.jpg' or filtype == '.jpeg' or filtype == '.png' or filtype == '.webp' %}
+          <img
+            src="{{ fil.path | relative_url }}"
+            alt="{{ page.tittel | escape }} – ekstra bilde"
+            loading="lazy"
+          >
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</article>
