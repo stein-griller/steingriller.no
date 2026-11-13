@@ -1,0 +1,10 @@
+title: Stein Griller
+lang: nb
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: "oppskrifter"
+      type: "pages"
+    values:
+      layout: oppskrift
