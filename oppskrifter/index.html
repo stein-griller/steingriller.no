@@ -1,0 +1,31 @@
+---
+layout: standard
+tittel: Oppskrifter
+---
+
+<h1>Oppskrifter fra Stein Griller</h1>
+<p>Grilling, røyk og god mat.</p>
+
+<div class="grid">
+  {% assign oppskrifter = site.pages
+    | where: "layout", "oppskrift"
+    | sort: "dato"
+    | reverse %}
+
+  {% for oppskrift in oppskrifter %}
+    {% assign bilde = oppskrift.dir | append: '01.jpg' %}
+
+    <a class="kort" href="{{ oppskrift.url | relative_url }}">
+      <img
+        src="{{ bilde | relative_url }}"
+        alt="{{ oppskrift.tittel | escape }}"
+        loading="lazy"
+      >
+
+      <div class="korttekst">
+        <h2>{{ oppskrift.tittel | escape }}</h2>
+        <p>{{ oppskrift.beskrivelse | escape }}</p>
+      </div>
+    </a>
+  {% endfor %}
+</div>
