@@ -2,7 +2,7 @@
 tittel: "Honey Miso Short ribs ala Fysenpaa"
 dato: "2026-11-13"
 porsjoner: 4
-beskrivelse: "God stekeskorpe, myk kjerne og frisk sitron."
+beskrivelse: "Comfort food deluxe"
 ---
 
 ## Ingredienser
@@ -28,6 +28,6 @@ beskrivelse: "God stekeskorpe, myk kjerne og frisk sitron."
 8. Sil så av kraften og kok inn til en deilig litt tykkere saus
    
 
-## 
+## Tips
 
 - Originalen til denne oppskriften og masse annet fint finner du her https://www.fysenpaa.no/oppskrifter/
