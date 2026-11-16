@@ -28,4 +28,4 @@ beskrivelse: "Italiensk ribbevariant tilbredt på grillen"
 
 ## Tips
 - Jeg synes det er best å lage porchetta og svor hver for seg, synes både smak og konsistens blir bedre. 
-- 
+- Om du har rotisserie så kan ha litt høyere varme (type 150-ish) og da vil svoren poppe av seg selv uten at du trenger å grise ned stekeovnen
