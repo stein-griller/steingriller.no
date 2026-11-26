@@ -10,13 +10,13 @@ beskrivelse: "Fyldig saus på pinnekjøttkraft med hvit miso, dijonsennep og top
    
 ## Ingredienser saus
 
-- 3 dl pinnekjøttnraft
+- 3 dl pinnekjøttkraft
 - 1 dl fløte
 - 50 g kaldt smør, i terninger
 - 2 ts hvit miso
 - 1 ts dijonsennep
 - 1 ss øl-eddik
-- 1 ss skje sherry
+- 1 ss sherry (ikke søt)
 - Nykvernet sort pepper
 - Timian
 
@@ -25,9 +25,10 @@ beskrivelse: "Fyldig saus på pinnekjøttkraft med hvit miso, dijonsennep og top
 1. Sil pinnekjøttkraften og fjern mesteparten av fettet. Smak på kraften og spe med litt vann hvis den er for salt.
 2. Kok opp kraft og fløte og la det småkoke i 5–7 minutter. Visp inn misoen mot slutten.
 3. Tilsett timian (kun blader)
-4. Rør inn dijonsennep og 1 ts eplesidereddik. Ta kjelen av varmen og visp inn det kalde smøret litt om gangen.
-5. Smak til med sort pepper og eventuelt litt mer eplesidereddik. Rør inn sherryen rett før servering.
+4. Rør inn dijonsennep og øl-eddik. Ta kjelen av varmen og visp inn det kalde smøret litt om gangen.
+5. Smak til med sort pepper og eventuelt litt mer øl-eddik. Rør inn sherryen rett før servering.
 
 ## Tips
 
 - Vil ha mer sherry-flavors, kok inn ½ dl tørr sherry til omtrent 2 ss før du tilsetter kraft og fløte.
+- Øl-eddik fra BCulture er tipptopp! Selges hos Annis, Gutta, osv. 
